@@ -24,3 +24,7 @@ Kolom Input (X) = [
   PERASAAN (AFEKSI) => 1301A-C, 1303A-C, 1305A-D (1302, 1304, 1306)
   MAKNA HIDUP (EUDAIMONIA ) => 1401A-D, 1403A-C, 1405A-C, 1407A-B, 1409A-B, 1411A-C
   ]
+
+
+==========
+df[[colomns]].isnull().sum()[lambda x: x > 0]
