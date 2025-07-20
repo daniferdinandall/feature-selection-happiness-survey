@@ -1,0 +1,42 @@
+DATA COLLECTION
+- jelaskan Dimensi-dimensi dalam indeks Kebahagiaan v
+- validasi rumus yang digunakan untuk menghitung indeks kebahagiaan v
+- buat target indeks_k v
+PREPOCESSING
+- handling missing value dengan mean/median/modus v
+- Data Validation (SHAPIRO) v
+- Encoding v
+- feature scaling v
+- Correlation Analysis (Pearson Correlation) v
+
+
+MODELING 3
+Uji Sampling v
+Uji Test Split (dengan dataset hasil Uji Sampling) v
+PSO (Cari paramater default setiap model, sabagai acuan range tunning model)
+Uji Kfold Setiap Model tunning
+Shap (Model Terbaik)
+Visualisi Perbandingan model terbaik dengan base model
+ambil feature importance (20 - Semua Kolom) -> Visualisi kan Linechart Akurasi -> Ambil jumlah dengan akurasi terbaik dan feature paling sedikit
+Fit model Akhir (Dengan feature yang sudah dipilih) -> Visualisi Perbandingan  (feature yang sudah dipilih Dengan All Feature)
+Export Model
+
+Uji Statistik Deskriptif (skewness dll)
+
+=================
+MODELING
+- Data Splitting v
+- Model Selection (Linear Regression, Decision Tree Regressor, Random Forest Regressor, Gradient Boosting Regressor )
+- Cross-Validation (Visualization K-Fold)
+- Hyperparameter Tuning (PSO)
+- Model Training and Evaluation
+- Model Interpretation (SHAP)
+
+
+MODELING 2
+- Uji Data Splitting (Decision Tree Regressor, Random Forest Regressor, Gradient Boosting Regressor)
+- Uji Kfold
+- PSO (hasil uji kfold dan uji testsplit)
+- SHAP
+
+

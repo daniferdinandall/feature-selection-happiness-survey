@@ -21,9 +21,9 @@ Kolom data sparse (Data Kosong/atau telah ditentukan) karena skip logic
 11. R1601A, R1601B => Jika R1206A = 3 [DONE]
 12. R1604B => Jika R1604A = 2 [DONE]
 13. R1607B => Jika R1607A = 1, 2, 3 [DONE]
-14. R1608B => Jika R1608A = 1 
+14. R1608B => Jika R1608A = 1  [DONE]
 15. R1608C => Jika R1608A = 2 [DONE]
 16. R1609B1, R1609B2, R1609B3, R1609B4, R1609B5, R1609B6 => Jika R1609A = 2 [DONE]
 17. R1609C => Jika Jika R1609A = 1 dan salah satu R1609B1-6 = 1 [DONE]
-18. R1613B => Jika R1613A != 1
-19. R1613C => Jika R1613A != 2
+18. R1613B => Jika R1613A != 1 [DONE]
+19. R1613C => Jika R1613A != 2 [DONE]
